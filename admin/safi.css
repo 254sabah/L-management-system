@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body {
+background-position: center;
+background: url(lroom.jpeg);
+background-size: cover;  
+font-family: sans-serif;
+}
+
+.banner {
+position: relative;
+width: 100%;
+min-height: 85vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style: outset;
+border-width: 10px;
+
+}
+
+.banner .content
+{
+max-width: 900px;
+text-align: center;
+}
+
+.banner .content h2 {
+font-size: 5em;
+color: #fff;
+}
+
+.banner .content p {
+font-size: 1em;
+color: #fff;
+}
+
+#bb {
+color: blue;
+background-color: whitesmoke;
+}
+
+b {
+  color: blue;
+}
+
+section{
+padding: 100px;
+}
+
+.menu-bar {
+background: rgb(81, 143, 201);
+text-align: center;
+}
+
+.menu-bar ul {
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+
+.menu-bar ul li {
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+
+.menu-bar ul li a {
+text-decoration: none;
+color: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+background: lightblue;
+border-radius: 3px;
+
+}
+
+.sub-menu1 {
+display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+display: block;
+position: absolute;
+background: rgb(81, 143, 201);
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul {
+display: block;
+margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li {
+width: 150px;
+padding: 10px;
+border-bottom: ipx dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:last-child {
+border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover {
+ color: #576b79;
+}
+
+.menu-bar :hover {
+background: r#61677a;
+border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+
+    <link rel="stylesheet" href="safi.css">
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.booking-button,
+.respond-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.booking-button:hover {
+    background-color: #0056b3;
+}
+
+.respond-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.respond-button:hover {
+    background-color: #218838;
+}
+
+    </style>
+</head>
+<body>
+    
+        
+        
+    <div class="button-container">
+        <button class="booking-button" onclick="redirectToBooking()">Booking</button>
+        <button class="respond-button" onclick="redirectToRespond()">Respond</button>
+    </div>
+
+    <script>
+        function redirectToBooking() {
+            // Redirect to safidb.php
+            window.location.href = 'safidb.php';
+        }
+
+        function redirectToRespond() {
+            // Redirect to respond.html
+            window.location.href = 'respond.html';
+        }
+    </script>
+</body>
+</html>

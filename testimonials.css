@@ -1,0 +1,310 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(flow.jpeg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+    line-height: 24px;
+}
+
+
+
+
+
+.content
+ {
+    max-width: 900px;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 5em;
+    color: #fff;
+}
+
+.content p {
+    font-size: 1em;
+    color: black;
+}
+
+.titletext {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.titletext span {
+    color: rgb(55, 101, 226);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#said {
+    color: black;
+}
+
+.content
+ {
+    max-width: 900px;
+    text-align: center;
+}
+
+h3 {
+    color: mediumblue;
+}
+
+.content h2 {
+    font-size: 5em;
+    color: #fff;
+}
+
+.content p {
+    font-size: 1em;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.content .box {
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+
+.content .box .imgbx {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.content .box .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.content .box .text {
+    padding: 15px 0 5px;
+}
+
+.content .box .text h3 {
+    font-weight: 400;
+    color: #111;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.content .box {
+    width: 250px;
+    margin: 15px;
+}
+
+.content .box .imgbx {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.content .box .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.content .box .text {
+    padding: 15px 0 5px;
+}
+
+.content .box .text h3 {
+    font-weight: 400;
+    color: #111;
+}
+
+.imgbx {
+    position: relative;
+    width: 100%;
+    /*min-height: 300px; */
+    height: 100%;
+}
+
+.imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 991px) {
+
+    .imgbx {
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+
+    .content .box {
+        margin: 10px;
+    }
+
+    .content .box .imgbx {
+        height: 260px;
+    }
+
+
+    .titletext {
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+    .testimonials .content .box {
+        margin: 10px;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 480px)
+{
+     .content h2 {
+    font-size: 2.2em;
+    color: #fff;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials {
+    background: url(2ndbackg.png);  
+    background-size: cover;
+}
+
+.testimonials {
+    background: url(bg2.jpg);  
+    background-size: cover;
+}
+
+.white .titletext, 
+.white p {
+    color: #fff;
+}
+
+.testimonials .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.testimonials .content .box {
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials .content .box .imgbx {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials .content .box .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.testimonials .content .box .text {
+    text-align: center;
+}
+
+.testimonials .content .box .text p {
+    color: #666;
+    font-style: italic;
+}
+
+.testimonials .content .box .text h3 {
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: #ff0157;
+    font-weight: 600;
+}
+
+.row .col50 .imgbx {
+    position: relative;
+    width: 100%;
+    /*min-height: 300px; */
+    height: 100%;
+}
+
+.row .col50 .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
